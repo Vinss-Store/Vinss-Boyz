@@ -222,3 +222,168 @@ button:hover {
   }
 }
 
+/* Global Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #333;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: #444;
+  padding: 10px 0;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #ff6347;
+}
+
+/* About Section */
+.about-section {
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.about-header h2 {
+  font-size: 36px;
+  color: #333;
+}
+
+.about-header p {
+  font-size: 18px;
+  margin-top: 10px;
+  color: #666;
+}
+
+/* Visi & Misi */
+.vision-mission {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.vision-mission .card {
+  width: 40%;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.vision-mission .card i {
+  font-size: 40px;
+  color: #ff6347;
+  margin-bottom: 10px;
+}
+
+.vision-mission .card h3 {
+  font-size: 24px;
+  color: #333;
+}
+
+.vision-mission .card p {
+  font-size: 16px;
+  color: #555;
+}
+
+/* Tim Kami */
+.our-team {
+  margin-top: 50px;
+}
+
+.our-team h2 {
+  font-size: 36px;
+  color: #333;
+}
+
+.team-grid {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.team-member {
+  text-align: center;
+  width: 30%;
+}
+
+.team-member img {
+  width: 100%;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.team-member h3 {
+  font-size: 22px;
+  color: #333;
+}
+
+.team-member p {
+  font-size: 16px;
+  color: #666;
+}
+
+/* Testimoni */
+.testimonials {
+  margin-top: 50px;
+}
+
+.testimonials h2 {
+  font-size: 36px;
+  color: #333;
+}
+
+.testimonial-grid {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.testimonial {
+  width: 45%;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.testimonial p {
+  font-size: 18px;
+  color: #555;
+}
+
+.testimonial h4 {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #333;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+}
+
