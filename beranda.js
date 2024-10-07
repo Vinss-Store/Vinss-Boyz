@@ -22,7 +22,7 @@
 </header>
 
 <nav>
-  <a href="beranda.html">Beranda</a>
+  <a href="beranda.js">Beranda</a>
   <a href="about.html">About</a>
   <a href="contact.html">Contact</a>
   <a href="testimoni.html">Testimoni</a>
